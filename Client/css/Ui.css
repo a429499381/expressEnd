@@ -1,0 +1,74 @@
+/* 游戏主体框架 */
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+.localGame {
+    position: relative;
+    text-align: center;
+}
+.remoteGame {
+    display: inline-block;
+    position: relative;
+    text-align: right;
+}
+.game {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 1px solid #678bff;
+    border-top: none;
+}
+
+/* 下一个方块框架*/
+.nexts {
+    position: absolute;
+    width: 100px;
+    top: 20px;
+    left: 240px;
+}
+.next {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 82px;
+    height: 82px;
+    border: 1px solid #678bff;
+}
+
+.info {
+    position: absolute;
+    font-size: 14px;
+}
+
+.none {
+}
+.done {
+    background: #ff8484;
+    border: 1px solid #ffffff;
+}
+.current {
+    background: #eeeeee;
+    border: 1px solid #ffffff;
+}
+
+
+
+/* 对手控制按钮*/
+.control {
+    position: absolute;
+    top: 160px;
+
+}
+
+.control > button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}

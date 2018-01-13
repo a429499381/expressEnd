@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>俄罗斯方块</title>
+    <link rel="stylesheet" href="css/Ui.css">
+    <script src="js/socket-2.04.js"></script>
+</head>
+<body>
+<div class="localGame">
+    <div id="waiting"></div>
+    <div id="localGame" class="game"></div>
+    <div class="nexts">
+        <div id="localNext" class="next"></div>
+        <div id="localInfo" class="info">
+            已用时间:<span id="localTime">&nbsp;</span>秒
+            <p></p>
+            得分: <span id="localScore"></span>分
+            <div id="localLose">输赢</div>
+        </div>
+    </div>
+</div>
+
+<div class="remoteGame">
+    <div id="remoteGame" class="game"></div>
+    <div class="nexts">
+        <div id="remoteNext" class="next"></div>
+        <div id="remoteInfo" class="info">
+            已用时间:<span id="remoteTime">&nbsp;</span>秒
+            <p></p>
+            得分: <span id="remoteScore"></span>分
+            <div id="remoteLose">输赢</div>
+        </div>
+    </div>
+
+
+</div>
+
+
+    <script src="js/socket-2.04.js"></script>
+    <script src="js/square.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/localGame.js"></script>
+    <script src="js/remoteGame.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
